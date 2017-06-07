@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomSeekBar">
+        //当前进度文字大小
+        <attr name="progressTextSize" format="dimension" />
+        //当前进度文字颜色
+        <attr name="progressTextColor" format="color" />
+        //当前进度的指针图片
+        <attr name="cursorBackground" format="reference" />
+        //刻度线的长度
+        <attr name="scaleLineHeight" format="dimension" />
+        //刻度线的宽度
+        <attr name="scaleLineWidth" format="dimension" />
+        //刻度线的颜色
+        <attr name="scaleLineColor" format="color" />
+        //刻度文字的大小
+        <attr name="scaleTextSize" format="dimension" />
+        //刻度文字的颜色
+        <attr name="scaleTextColor" format="color" />
+    </declare-styleable>
+</resources>
