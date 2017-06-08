@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--SeekBar属性-->
     <declare-styleable name="CustomSeekBar">
         //当前进度文字大小
         <attr name="progressTextSize" format="dimension" />
@@ -17,5 +18,18 @@
         <attr name="scaleTextSize" format="dimension" />
         //刻度文字的颜色
         <attr name="scaleTextColor" format="color" />
+    </declare-styleable>
+    <!--ProgressBar属性-->
+    <declare-styleable name="CustomProgressBar">
+        //文字大小
+        <attr name="textSize" format="dimension" />
+        //文字默认颜色
+        <attr name="textColor" format="color" />
+        //超过进度文字显示的颜色
+        <attr name="selectTextColor" format="color" />
+        //三角形的边长
+        <attr name="triangleLength" format="dimension" />
+        //三角形的颜色
+        <attr name="triangleColor" format="color" />
     </declare-styleable>
 </resources>
