@@ -11,7 +11,7 @@ import android.util.TypedValue;
 import android.widget.ProgressBar;
 
 /**
- * 作者：xmm on 2017/6/8 0008 09:39
+ * 作者：xmm on 2017/6/8 0008 09:40
  * 邮箱：15067596185@163.com
  */
 public class CustomProgressBar extends ProgressBar {
